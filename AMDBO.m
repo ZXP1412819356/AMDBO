@@ -1,18 +1,4 @@
-% -----------------------------------------------------------------------------------------------------------
-% Dung Beetle Optimizer: (DBO) (demo)
-% Programmed by Jian-kai Xue    
-% Updated 28 Nov. 2022.                     
-%
-% This is a simple demo version only implemented the basic         
-% idea of the DBO for solving the unconstrained problem.    
-% The details about DBO are illustratred in the following paper.    
-% (To cite this article):                                                
-%  Jiankai Xue & Bo Shen (2022) Dung beetle optimizer: a new meta-heuristic
-% algorithm for global optimization. The Journal of Supercomputing, DOI:
-% 10.1007/s11227-022-04959-6
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% qqÈº£º869592172
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [fMin,bestX , Convergence_curve ] = AMDBO(pop, M,c,d,dim,fobj  )
         
    P_percent = 0.2;    % The population size of producers accounts for "P_percent" percent of the total population size       
